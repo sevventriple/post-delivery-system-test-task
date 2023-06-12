@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: postgres
+    password: 13g24s57fw
+    url: jdbc:postgresql://localhost:5432/Post_delivery_db
+  jpa:
+    show-sql: true
+  liquibase:
+    change-log: db/changelog/db.changelog-master.yaml
+    enabled: true
+server:
+  port: 8081
